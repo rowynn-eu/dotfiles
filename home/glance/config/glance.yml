@@ -1,0 +1,25 @@
+server:
+  port: ****
+  assets-path: /app/assets
+
+theme:
+  theme:
+  background-color: 0 0 16
+  primary-color: 27 99 55
+  positive-color: 104 35 62
+  negative-color: 6 96 59
+  custom-css-file: /assets/user.css
+
+document:
+  head: |
+    <script src="https://climateclock.world/widget-v2.js" async></script>
+branding:
+  logo-text: "owo"
+  hide-footer: true
+  logo-url: /assets/icon.png
+  favicon-url: /assets/icon.png
+  # custom-footer: |
+  #   <p>at the end of everything, hold on to anything.<br><small>>powered by <a href="https://github.com/glanceapp/glance">glance</small></a></p>
+pages:
+  !include: home.yml
+  # you will have to make your own home.yml
